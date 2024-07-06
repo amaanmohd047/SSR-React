@@ -20,6 +20,12 @@ ReactDOM.renderToString(<Component />);
 
 method to paint the react component on the DOM.
 
-On Client side, the react tree should be exactly the same as the react tree from the server and then using ReactDOM.hydrateRoot() method, we can hydrate the static HTML served by the server to add interactivity to the page.
+On Client side, the react tree should be exactly the same as the react tree from the server and then using
+
+```
+ReactDOM.hydrateRoot()
+```
+
+ method, we can hydrate the static HTML served by the server to add interactivity to the page.
 
 This leads to the faster initial load of the page as well as client side interactivity to the page.
