@@ -1,5 +1,3 @@
-console.log("hello");
-
 ReactDOM.hydrateRoot(document.getElementById("root"), <Calculator />);
 
 function Calculator() {
